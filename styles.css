@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.posts article {
+    background: #333;
+    padding: 20px;
+    margin: 15px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.comments input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+
+.comments button {
+    padding: 10px;
+    background: #ff8800;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .posts article {
+        width: 90%;
+    }
+}
